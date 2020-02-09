@@ -7,7 +7,7 @@ redis-server
 
 redis-cli
 ping
-keys *
+KEYS *
 
 SET foo 100
 GET foo
@@ -22,9 +22,9 @@ DEL bar
 redis-cli ECHO hello
 
 monitor
-keys *
+KEYS *
 FLUSHALL
-keys *
+KEYS *
 
 SET server:name myserver
 GET server:name
@@ -36,5 +36,67 @@ GET resource:foo
 EXPIRE resource:foo 120
 GET resource:foo
 TTL resource:foo
+```
+```bash
+MSET key1 "Hello" key2 "World"
+GET key1
+GET key2
+MGET key1 key2
+
+MSETNX key3 "Test"
+MSETNX key4 "something" key3 "Testing"
+GET key3
+> "Test"
+GET key4
+> nil
+
+SET greeting "Hello"
+GET greeting
+APPEND greeting " World"
+GET greeting
+
+RENAME greeting greet
+GET greet
+
+RENAMENX key1 mykey
+> 1
+GET key1
+GET mykey
+RENAMENX key2 mykey
+> 0
+
+SET mystring "This is my string"
+GETRANGE mystring 0 -1
+GETRANGE mystring 0 5
+
+GETSET key1 "New Value"
+GET key1
+
+FLUSHALL
+
+SET key1 "hello"
+EXPIRE key1 10
+TTL key1
+GET key1
+
+SETEX key1 20 "hello"
+TTL key1
+GET key1
+
+PSETEX key1 5000 "hello"
+TTL key1
+PTTL key1
+
+SETEX key1 120 "hello"
+TTL key1
+PERSIST key1
+TTL key1
+> -1
+
+SETNX newkey "foobar"
+> 1
+SETNX newkey "foobar 2"
+> 0
+GET newkey
 ```
 
