@@ -1,40 +1,26 @@
-# Learn Redis from Scratch
-
-## Commands
-
-```bash
-redis-server
-
-redis-cli
-ping
-keys *
-
+PING
+ECHO hello
 SET foo 100
 GET foo
 INCR foo
+INCR foo
 DECR foo
-
 SET bar 200
 EXISTS bar
-> 1 or 0
+EXISTS bar2
 DEL bar
-
-redis-cli ECHO hello
-
-monitor
-keys *
+EXISTS bar
+$ redis-cli ECHO Hello
+$ redis-cli GET foo
+$ redis-cli INCR foo > commands.txt
+INCR foo
 FLUSHALL
-keys *
-
+GET foo
 SET server:name myserver
 GET server:name
 SET server:port 6379
 GET server:port
-
 SET resource:foo hello
-GET resource:foo
 EXPIRE resource:foo 120
-GET resource:foo
 TTL resource:foo
-```
 
