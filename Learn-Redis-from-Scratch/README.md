@@ -131,4 +131,20 @@ CLIENT SET NAME bar
 CLIENT GETNAME
 CLIENT KILL 127.0.0.1:xxxxx
 ```
+```bash
+LPUSH friends "Bob"
+LPUSH friends "Fred"
+RPUSH friends "Tony"
+LRANGE friends 0 -1
+LRANGE friends 1 2
+LLEN friends
+LPOP friends
+RPOP friends
+LRANGE friends 0 -1
+LPUSH friends "Sam"
+LPUSH friends "Joe"
+LRANGE friends 0 -1
+LINSERT friends BEFORE "Bob" "Kevin"
+LRANGE friends 0 -1
+```
 
