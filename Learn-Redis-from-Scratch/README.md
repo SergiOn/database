@@ -166,4 +166,18 @@ SMEMBERS carmakes
 SRANDMEMBER carmakes
 SPOP carmakes
 ```
+```bash
+ZADD people 1970 "John Doe"
+ZADD people 1985 "Sam Smith"
+ZADD people 1990 "Jen Williams"
+ZRANGE people 0 -1
+ZRANGEBYSCORE people 1970
+ZRANK people "Sam Smith"
+ZRANK people "John Doe"
+ZRANK people "Jen Williams"
+ZREVRANK people "Jen Williams"
+ZCARD people
+ZINCRBY people 1 "John Doe"
+ZSCORE peope "John Doe"
+```
 
