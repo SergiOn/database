@@ -147,4 +147,23 @@ LRANGE friends 0 -1
 LINSERT friends BEFORE "Bob" "Kevin"
 LRANGE friends 0 -1
 ```
+```bash
+SADD carmakes "Toyota"
+SADD carmakes "Ford"
+SADD carmakes "Chevy"
+SADD carmakes "Honda"
+SREM carmakes "Honda"
+SISMEMBER carmakes "Honda"
+SISMEMBER carmakes "Hondas"
+SMEMBERS carmakes
+SADD carmakes "Honda"
+SMEMBERS carmakes
+SCARD carmakes
+SADD mycars "Acura"
+SMOVE carmakes mycars "Toyota"
+SMEMBERS mycars
+SMEMBERS carmakes
+SRANDMEMBER carmakes
+SPOP carmakes
+```
 
