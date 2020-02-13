@@ -19,3 +19,12 @@ https://www.udemy.com/course/learn-redis-and-utilize-jedis-with-spring-data-redi
 A guide to learn Redis, and build Spring application with Jedis and Spring Data Redis
 
 
+## Redis Bootcamp for Beginners: Get Hands On with Redis 5
+
+https://www.udemy.com/course/redis-bootcamp-for-beginners
+
+#### About
+
+Dive Deep in Redis and Learn the most Demanding NoSql Database. Go From Absolute Beginner to Advanced in Redis
+
+
