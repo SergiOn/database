@@ -79,3 +79,34 @@ SETRANGE key1 6 "Redis" (Overwrites part of the string stored at key) .
 STRLEN mykey ( Returns the length of the string ).
 ```
 
+
+### List Command Cheat Sheet
+
+```bash
+RPUSH mylist "hello" (Insert all the specified values at the tail of the list stored at key.)
+
+LRANGE mylist 0 -1 (Returns the specified elements of the list stored at key.)
+
+LPUSH mylist "world" (Insert all the specified values at the head of the list stored at key.)
+
+RPUSHX mylist "World" (Inserts value at the tail of the list stored at key, only if key already exists and holds a list.)
+
+LPUSH mylist "World" (Inserts value at the head of the list stored at key, only if key already exists and holds a list.)
+
+RPOP mylist (Removes and returns the last element of the list stored at key.)
+
+LPOP mylist (Removes and returns the first element of the list stored at key.)
+
+LTRIM mylist 1 -1 (Trim an existing list so that it will contain only the specified range of elements specified)
+
+LSET mylist 0 "four" (Sets the list element at index to value.)
+
+LINDEX mylist 0 (Returns the element at index in the list stored at key.)
+
+LINSERT mylist BEFORE "World" "There" (Inserts value in the list stored at key either before or after the reference value pivot.)
+
+LLEN mylist (Returns the length of the list stored at key. )
+
+LREM mylist 2 "hello" (Removes the first count occurrences of elements equal to value from the list stored at key.)
+```
+
