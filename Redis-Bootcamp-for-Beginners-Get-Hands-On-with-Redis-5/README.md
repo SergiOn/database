@@ -110,3 +110,37 @@ LLEN mylist (Returns the length of the list stored at key. )
 LREM mylist 2 "hello" (Removes the first count occurrences of elements equal to value from the list stored at key.)
 ```
 
+
+### Hashes Command Cheat Sheet
+
+```bash
+HSET myhash field1 "Hello".  (Sets field in the hash stored at key to value. If field already exists in the hash, it is overwritten.)
+
+HGET myhash field1 (Returns the value associated with field in the hash stored at key.)
+
+
+HMSET myhash field1 "Hello" field2 "World" ( Set Multiple values.)
+
+HGETALL myhash  (Returns all fields and values of the hash stored at key.)
+
+HMGET myhash field1 field2 (Returns the values associated with the specified fields in the hash stored at key.)
+
+HEXISTS myhash field1 (Returns if field is an existing field in the hash stored at key.)
+
+HKEYS myhash (Returns all field names in the hash stored at key.)
+
+HLEN myhash (Returns the number of fields contained in the hash stored at key.)
+
+HSETNX myhash field "Hello" (Sets field in the hash stored at key to value, only if field does not yet exist.)
+
+HDEL myhash field1 (Removes the specified fields from the hash stored at key.)
+
+HINCRBY myhash field 1 (Increments the number stored at field in the hash stored at key by increment.)
+
+HINCRBYFLOAT mykey field 0.1 (Increment the specified field of a hash stored at key, and representing a floating point number, by the specified increment.)
+
+HSTRLEN myhash f1 (Returns the string length of the value associated with field in the hash stored at key.)
+
+HVALS myhash (Returns all values in the hash stored at key.)
+```
+
