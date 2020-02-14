@@ -39,3 +39,43 @@ DUMP mykey (Serialize the value stored at key in a Redis-specific format)
 
 RESTORE mykey 0 "\n\x17\x17\x00\x00\x00\x12\x00\x00\x00\x03\x00\”
 ```
+
+
+### String Command Cheat Sheet
+
+```bash
+APPEND mykey "Hello" (appends the value at the end of the string).
+
+INCR mykey (Increments the number stored at key by one).
+
+INCRBY mykey 5
+
+DECR mykey (Decrements the number stored at key by one.)
+
+DECRBY mykey 3 (Decrements the number stored at key )
+
+INCRBYFLOAT mykey 0.1(Increment the string representing a floating point number)
+
+GETSET mycounter "0" (Atomically sets key to value and returns the old value stored at key)
+
+MSET key1 "Hello" key2 "World" (Sets the given keys to their respective values.)
+
+MGET key1 key2 (Returns the values of all specified keys).
+
+SETNX mykey "Hello" (Set key to hold string value if key does not exist.)
+
+MSETNX key1 "Hello" key2 "there" (Sets the given keys to their respective values.)
+
+GETRANGE mykey 0 3 (Returns the substring of the string value stored at key).
+
+GETRANGE mykey -3 -1. (-1 means the last character and so on).
+
+SETEX mykey 10 "Hello" (Set key to hold the string value and set key to timeout after a given number of seconds.)
+
+PSETEX mykey 1000 "Hello" ( expire time is specified in milliseconds instead of seconds.)
+
+SETRANGE key1 6 "Redis" (Overwrites part of the string stored at key) .
+
+STRLEN mykey ( Returns the length of the string ).
+```
+
