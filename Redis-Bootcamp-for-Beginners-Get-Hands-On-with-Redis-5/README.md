@@ -144,3 +144,40 @@ HSTRLEN myhash f1 (Returns the string length of the value associated with field 
 HVALS myhash (Returns all values in the hash stored at key.)
 ```
 
+
+### Sets Command Cheat Sheet
+
+```bash
+SADD myset "Hello" Add the specified members to the set stored at key.
+
+SMEMBERS myset (Returns all the members of the set value stored at key.)
+
+SISMEMBER myset "one” (Returns if member is a member of the set stored at key.)
+
+
+SCARD myset(Returns the set cardinality (number of elements) of the set stored at key.)
+
+
+SMOVE myset myotherset "two" (Move member from the set at source to the set at destination.)
+
+SPOP myset (Removes and returns one or more random elements from the set value store at key.)
+
+SREM myset "one" (Remove the specified members from the set stored at key.)
+
+
+SDIFF key1 key (Returns the members of the set resulting from the difference between the first set and all the successive sets.)
+
+SDIFFSTORE key key1 key2(This command is equal to SDIFF, but instead of returning the resulting set, it is stored in destination.)
+
+
+SINTER key1 key2 (Returns the members of the set resulting from the intersection of all the given sets.)
+
+SINTERSTORE key key1 key2(This command is equal to SINTER, but instead of returning the resulting set, it is stored in destination.)
+
+SUNION key1 key2 (Returns the members of the set resulting from the union of all the given sets.)
+
+SUNIONSTORE key key1 key2(This command is equal to SUNION, but instead of returning the resulting set, it is stored in destination.)
+
+SRANDMEMBER myset 2 ( When called with just the key argument, return a random element from the set value stored at key.)
+```
+
