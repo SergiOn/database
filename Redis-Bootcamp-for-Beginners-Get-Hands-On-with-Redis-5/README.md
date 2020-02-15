@@ -181,3 +181,56 @@ SUNIONSTORE key key1 key2(This command is equal to SUNION, but instead of return
 SRANDMEMBER myset 2 ( When called with just the key argument, return a random element from the set value stored at key.)
 ```
 
+
+### Sorted Sets Command Cheat Sheet
+
+```bash
+ZADD myzset 2 "two" 3 "three" (https://redis.io/commands/zadd  Refer this link to know more.)
+
+ZRANGE myzset 0 -1 WITHSCORES (Returns the specified range of elements in the sorted set stored at key.)
+
+ZCARD myzset (Returns the sorted set cardinality (number of elements) of the sorted set stored at key.)
+
+
+ZREM myzset "two" (Removes the specified members from the sorted set stored at key. Non existing members are ignored.)
+
+ZSCORE myzset "one" (Returns the score of member in the sorted set at key.)
+
+ZREVRANGE myzset 0 -1 (Returns the specified range of elements in the sorted set stored at key. The elements are considered to be ordered from the highest to the lowest score.)
+
+ZRANK myzset "three" (Returns the rank of member in the sorted set stored at key, with the scores ordered from low to high. The rank (or index) is 0-based, which means that the member with the lowest score has rank 0.)
+
+
+ZREVRANK myzset "one" (Returns the rank of member in the sorted set stored at key, with the scores ordered from high to low. The rank (or index) is 0-based, which means that the member with the highest score has rank 0.)
+
+ZINCRBY myzset 2 "one" (Increments the score of member in the sorted set stored at key by increment.)
+
+ZCOUNT myzset -inf +inf (Returns the number of elements in the sorted set at key with a score between min and max.)
+
+ZPOPMAX myzset (Removes and returns up to count members with the highest scores in the sorted set stored at key.)
+
+ZPOPMIN myzset (Removes and returns up to count members with the lowest scores in the sorted set stored at key.
+
+ZINTERSTORE out 2 zset1 zset2 WEIGHTS 2 3 (Computes the intersection of numkeys sorted sets given by the specified keys, and stores the result in destination. )
+
+ZUNIONSTORE out 2 zset1 zset2 WEIGHTS 2 3 (Computes the union of numkeys sorted sets given by the specified keys, and stores the result in destination.)
+
+
+ZRANGEBYSCORE myzset (1 2 (Returns all the elements in the sorted set at key with a score between min and max)
+
+ZRANGEBYLEX myzset - [c (https://redis.io/commands/zrangebylex Refer to this link to know more)
+
+ZLEXCOUNT myzset [b [f (When all the elements in a sorted set are inserted with the same score, in order to force lexicographical ordering, this command returns the number of elements in the sorted set at key with a value between min and max.)
+
+ZREVRANGEBYLEX myzset [c – (Apart from the reversed ordering, ZREVRANGEBYLEX is similar to ZRANGEBYLEX.)
+
+
+ZREMRANGEBYLEX myzset [alpha [omega  (When all the elements in a sorted set are inserted with the same score, in order to force lexicographical ordering, this command removes all elements in the sorted set stored at key between the lexicographical range specified by min and max.)
+
+ZREMRANGEBYRANK myzset 0 1 (Removes all elements in the sorted set stored at key with rank between start and stop.)
+
+ZREMRANGEBYSCORE myzset -inf (2  (Removes all elements in the sorted set stored at key with a score between min and max (inclusive).)
+
+ZREVRANGEBYSCORE myzset 2 (1  (Apart from the reversed ordering, ZREVRANGEBYSCORE is similar to ZRANGEBYSCORE.)
+```
+
