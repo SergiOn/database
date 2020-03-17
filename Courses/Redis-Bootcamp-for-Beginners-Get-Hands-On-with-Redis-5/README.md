@@ -21,7 +21,7 @@ PERSIST mykey (Remove EXPIRATION from the key)
 
 KEYS a?? (Returns all keys matching pattern)
 ```
-![Keys matching pattern](./keys-command.png)
+![Keys matching pattern](keys-command.png)
 ```bash
 RANDOMKEY (Return a random key from the currently selected database)
 
