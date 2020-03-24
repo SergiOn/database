@@ -12,7 +12,4 @@ https://sqlzoo.net
 
 SQL Tutorial
 
-#### Links
-
-https://github.com/jisaw/sqlzoo-solutions
 
