@@ -26,3 +26,11 @@ https://sqlzoo.net/wiki/Using_SUM,_Count,_MAX,_DISTINCT_and_ORDER_BY
 
 ![https://sqlzoo.net/wiki/The_JOIN_operation](https://sqlzoo.net/w/images/c/ce/FootballERD.png)
 
+##### 8 Using Null
+
+https://sqlzoo.net/wiki/Selecting_NULL_values.
+
+https://sqlzoo.net/wiki/COALESCE
+
+https://sqlzoo.net/wiki/CASE
+
