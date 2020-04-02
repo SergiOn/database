@@ -19,14 +19,14 @@ SELECT id, title
   WHERE yr = 1962
 
 /*
-2
+2. When was Citizen Kane released?
 */
 SELECT yr
   FROM movie
   WHERE title = 'Citizen Kane'
 
 /*
-3
+3. Star Trek movies
 */
 SELECT id, title, yr
   FROM movie
@@ -34,21 +34,21 @@ SELECT id, title, yr
   ORDER BY yr
 
 /*
-4
+4. id for actor Glenn Close
 */
 SELECT id
   FROM actor
   WHERE name = 'Glenn Close'
 
 /*
-5
+5. id for Casablanca
 */
 SELECT id
   FROM movie
   WHERE title = 'Casablanca'
 
 /*
-6
+6. Cast list for Casablanca
 */
 SELECT name
   FROM actor JOIN casting
@@ -56,7 +56,7 @@ SELECT name
   WHERE casting.movieid = 11768
 
 /*
-7
+7. Alien cast list
 */
 SELECT name
   FROM actor
@@ -65,7 +65,7 @@ SELECT name
   WHERE movie.title = 'Alien'
 
 /*
-8
+8. Harrison Ford movies
 */
 SELECT title
   FROM actor
@@ -74,7 +74,7 @@ SELECT title
   WHERE actor.name = 'Harrison Ford'
 
 /*
-9
+9. Harrison Ford as a supporting actor
 */
 SELECT title
   FROM actor
@@ -83,7 +83,7 @@ SELECT title
   WHERE actor.name = 'Harrison Ford' AND casting.ord != 1
 
 /*
-10
+10. Lead actors in 1962 movies
 */
 SELECT title, name
   FROM actor
@@ -92,7 +92,7 @@ SELECT title, name
   WHERE movie.yr = 1962 AND casting.ord = 1
 
 /*
-11
+11. Busy years for Rock Hudson
 */
 SELECT yr, COUNT(title)
   FROM movie
@@ -103,7 +103,7 @@ SELECT yr, COUNT(title)
   HAVING COUNT(title) > 2
 
 /*
-12
+12. Lead actor in Julie Andrews movies
 */
 SELECT movie.title, actor.name
   FROM movie
@@ -118,7 +118,7 @@ SELECT movie.title, actor.name
   )
 
 /*
-13
+13. Actors with 15 leading roles
 */
 SELECT actor.name
   FROM movie

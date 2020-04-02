@@ -34,3 +34,5 @@ https://sqlzoo.net/wiki/COALESCE
 
 https://sqlzoo.net/wiki/CASE
 
+https://sqlzoo.net/wiki/Outer_joins
+
