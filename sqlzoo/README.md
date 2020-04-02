@@ -36,3 +36,7 @@ https://sqlzoo.net/wiki/CASE
 
 https://sqlzoo.net/wiki/Outer_joins
 
+##### 9- Window function
+
+http://www.sql-tutorial.ru/ru/book_rank_dense_rank_functions.html
+
