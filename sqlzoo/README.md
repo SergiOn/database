@@ -40,3 +40,7 @@ https://sqlzoo.net/wiki/Outer_joins
 
 http://www.sql-tutorial.ru/ru/book_rank_dense_rank_functions.html
 
+##### 9 Self join
+
+https://sqlzoo.net/wiki/Using_a_self_join
+
