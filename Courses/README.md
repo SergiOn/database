@@ -28,3 +28,12 @@ https://www.udemy.com/course/redis-bootcamp-for-beginners
 Dive Deep in Redis and Learn the most Demanding NoSql Database. Go From Absolute Beginner to Advanced in Redis
 
 
+## The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert
+
+https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert
+
+#### About
+
+Become an In-demand SQL Master by creating complex databases and building reports through real-world projects
+
+
