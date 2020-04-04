@@ -12,4 +12,20 @@ Become an In-demand SQL Master by creating complex databases and building report
 
 http://webdev.slides.com/coltsteele/mysql-109#/
 
+#### Section 2: Getting Started: Overview and Installation
+
+http://webdev.slides.com/coltsteele/mysql#/
+
+
+### Commands
+
+#### Section 2: Getting Started: Overview and Installation
+
+```bash
+mysql -u root -p
+password
+
+show databases;
+```
+
 
