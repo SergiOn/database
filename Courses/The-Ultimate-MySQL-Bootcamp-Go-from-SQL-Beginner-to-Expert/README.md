@@ -16,6 +16,9 @@ http://webdev.slides.com/coltsteele/mysql-109#/
 
 http://webdev.slides.com/coltsteele/mysql#/
 
+#### Section 3: Creating Databases and Tables
+
+http://webdev.slides.com/coltsteele/mysql-97-98#/
 
 ### Commands
 
