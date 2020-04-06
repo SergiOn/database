@@ -24,6 +24,10 @@ http://webdev.slides.com/coltsteele/mysql-97-98#/
 
 http://webdev.slides.com/coltsteele/mysql-99-100#/
 
+#### Section 7: The World Of String Functions
+
+http://webdev.slides.com/coltsteele/mysql-99-101#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
