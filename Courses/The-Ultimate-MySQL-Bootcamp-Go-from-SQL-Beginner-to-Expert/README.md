@@ -20,6 +20,10 @@ http://webdev.slides.com/coltsteele/mysql#/
 
 http://webdev.slides.com/coltsteele/mysql-97-98#/
 
+#### Section 5: CRUD commands
+
+http://webdev.slides.com/coltsteele/mysql-99-100#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
