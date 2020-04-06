@@ -28,6 +28,10 @@ http://webdev.slides.com/coltsteele/mysql-99-100#/
 
 http://webdev.slides.com/coltsteele/mysql-99-101#/
 
+#### Section 10: Revisiting Data Types
+
+http://webdev.slides.com/coltsteele/mysql-99-102#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
