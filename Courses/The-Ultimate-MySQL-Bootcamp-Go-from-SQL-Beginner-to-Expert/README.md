@@ -32,6 +32,10 @@ http://webdev.slides.com/coltsteele/mysql-99-101#/
 
 http://webdev.slides.com/coltsteele/mysql-99-102#/
 
+#### Section 11: The Power of Logical Operators
+
+http://webdev.slides.com/coltsteele/mysql-99-103#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
