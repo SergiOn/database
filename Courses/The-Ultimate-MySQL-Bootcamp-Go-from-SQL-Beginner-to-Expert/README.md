@@ -36,6 +36,12 @@ http://webdev.slides.com/coltsteele/mysql-99-102#/
 
 http://webdev.slides.com/coltsteele/mysql-99-103#/
 
+#### Section 12: Section 12: One To Many
+
+http://webdev.slides.com/coltsteele/mysql-99-104#/
+
+https://stackoverflow.com/questions/8096550/mysql-determine-which-database-is-selected
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
