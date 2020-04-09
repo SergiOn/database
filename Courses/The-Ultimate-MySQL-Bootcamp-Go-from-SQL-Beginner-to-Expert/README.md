@@ -46,6 +46,8 @@ https://stackoverflow.com/questions/8096550/mysql-determine-which-database-is-se
 
 http://webdev.slides.com/coltsteele/mysql-106#/
 
+http://howto.philippkeller.com/2005/06/19/Tagsystems-performance-tests/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
