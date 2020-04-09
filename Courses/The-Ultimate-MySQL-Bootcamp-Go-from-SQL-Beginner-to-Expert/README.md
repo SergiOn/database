@@ -48,6 +48,12 @@ http://webdev.slides.com/coltsteele/mysql-106#/
 
 http://howto.philippkeller.com/2005/06/19/Tagsystems-performance-tests/
 
+#### Section 16: Section 16 - Introducing Node
+
+https://github.com/nax3t/node-and-mysql
+
+http://webdev.slides.com/coltsteele/mysql-105#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
