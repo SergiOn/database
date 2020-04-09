@@ -42,6 +42,10 @@ http://webdev.slides.com/coltsteele/mysql-99-104#/
 
 https://stackoverflow.com/questions/8096550/mysql-determine-which-database-is-selected
 
+#### Section 14: Instagram Database Clone
+
+http://webdev.slides.com/coltsteele/mysql-106#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
