@@ -54,6 +54,10 @@ https://github.com/nax3t/node-and-mysql
 
 http://webdev.slides.com/coltsteele/mysql-105#/
 
+#### Section 18: Section 18 - Database Triggers
+
+http://webdev.slides.com/coltsteele/mysql-113#/
+
 ### Commands
 
 #### Section 2: Getting Started: Overview and Installation
