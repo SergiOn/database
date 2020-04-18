@@ -37,3 +37,12 @@ https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to
 Become an In-demand SQL Master by creating complex databases and building reports through real-world projects
 
 
+## The Complete SQL Bootcamp
+
+https://www.udemy.com/course/the-complete-sql-bootcamp
+
+#### About
+
+Become an expert at SQL!
+
+
