@@ -16,6 +16,8 @@ https://www.tutorialspoint.com/postgresql/postgresql_select_database.htm
 
 https://www.postgresql.org/docs/current/functions-matching.html
 
+https://www.postgresql.org/docs/12/functions-formatting.html
+
 #### Commands
 
 ```bash
