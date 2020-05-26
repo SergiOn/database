@@ -46,3 +46,12 @@ https://www.udemy.com/course/the-complete-sql-bootcamp
 Become an expert at SQL!
 
 
+## Getting Started With Apache Cassandra
+
+https://www.udemy.com/course/apache-cassandra
+
+#### About
+
+Learn everything you need to know to use Apache Cassandra
+
+
